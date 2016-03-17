@@ -5,6 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/SideBarMenuController.svg?style=flat)](http://cocoapods.org/pods/SideBarMenuController)
 [![Platform](https://img.shields.io/cocoapods/p/SideBarMenuController.svg?style=flat)](http://cocoapods.org/pods/SideBarMenuController)
 
+## Installation
+
+SideBarMenuController is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "SideBarMenuController"
+```
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -54,15 +63,22 @@ class ViewController: UIViewController{
 
 ![Demo GIF](https://cloud.githubusercontent.com/assets/14342440/13861155/c46004ea-ec59-11e5-945f-b4a82feef76f.gif)
 
-## Requirements
+By default, you could toggle menu with swipe gesture. To toggle menu with other actions like touch(button tapped), you will need delegate between your parent scroll view and other views. Then simply trigger this internal function in your delegate method to toggle the menu:
 
-## Installation
+```swift
+self.toggleLeftMenuAnimated(true)
+```
 
-SideBarMenuController is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## Internal Methods You May Want to Explore:
+```swift
+// Close the leftViewController
+closeMenuAnimated(animated: Bool)
 
-```ruby
-pod "SideBarMenuController"
+// Open the leftViewController
+openLeftMenuAnimated(animated: Bool)
+
+// Open the leftViewController if it is closed, vice versa, close it if it is open 
+toggleLeftMenuAnimated(animated: Bool)
 ```
 
 ## Author
