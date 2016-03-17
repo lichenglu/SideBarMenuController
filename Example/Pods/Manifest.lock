@@ -1,0 +1,16 @@
+PODS:
+  - SideBarMenuController (0.1.0)
+
+DEPENDENCIES:
+  - SideBarMenuController (from `../`)
+
+EXTERNAL SOURCES:
+  SideBarMenuController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SideBarMenuController: dc855db48e99f2b54bdb22ac24246f7553cce9c1
+
+PODFILE CHECKSUM: 4b458f2f372a761cce1f63fca21dd1d2b7fd2d10
+
+COCOAPODS: 1.0.0.beta.2

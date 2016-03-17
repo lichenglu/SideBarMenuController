@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182260DEBE292492E9F9519DC3F1591D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		2519FFE771755F105CB5FC0D12B7DEAC /* SideBarMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 749937B286EF9F97CDDE9BBDF19246CB /* SideBarMenuController-dummy.m */; };
+		493B6FF1B39CF22CD6375492BA634ECE /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D16235A0B9609A8F5E96E60E4CA66 /* SidebarViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		53FC62B037DC29E5171EF0E3CB2BB0D5 /* Pods-SideBarMenuController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0848056F744D3BBA4BBDD8E64164CF02 /* Pods-SideBarMenuController_Example-dummy.m */; };
+		712A795263E51F686B44BD570E9C3FDB /* SideBarMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3F9092366C31C6F1C67E9A37BF9E27 /* SideBarMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86162BC8DC1228FEA22E925A19ADBF9D /* SideBarMenuController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37CCBF266E6DFBC748731662107ED753 /* SideBarMenuController.bundle */; };
+		BDE8D56152999F8FB9BB658C3E6230A3 /* Pods-SideBarMenuController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0262F71D698F9B58211F2D9F2252C75 /* Pods-SideBarMenuController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA47288F864D28F26E3E43D8205BC8C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		142370E1A8E5F14744ABEB7D0AF56291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E8CB6EB441CF2F253316FFCED97F57;
+			remoteInfo = SideBarMenuController;
+		};
+		CED9E54CC4E563C666FCEF8A49795BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F8BEE755FDE8533ADD20895FA8282D;
+			remoteInfo = "SideBarMenuController-SideBarMenuController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075BDA59FEDE4DBF8CE1FDE91EBD6ED7 /* SideBarMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideBarMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0848056F744D3BBA4BBDD8E64164CF02 /* Pods-SideBarMenuController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SideBarMenuController_Example-dummy.m"; sourceTree = "<group>"; };
+		0ADAF8F69207C0EFF1D5AF86F1A4FD8D /* Pods-SideBarMenuController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SideBarMenuController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0F3F9092366C31C6F1C67E9A37BF9E27 /* SideBarMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideBarMenuController-umbrella.h"; sourceTree = "<group>"; };
+		25280DDCCBACE55934988076E8581FBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CCBF266E6DFBC748731662107ED753 /* SideBarMenuController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideBarMenuController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3896D6B40342D2B2A794CA7932E07ABB /* Pods-SideBarMenuController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SideBarMenuController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		528566E1F2C6BC7CD632C6E7B9D049E3 /* SideBarMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideBarMenuController-prefix.pch"; sourceTree = "<group>"; };
+		691E066FA11D13C024B4B9DF6AB6C32F /* Pods-SideBarMenuController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SideBarMenuController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		749937B286EF9F97CDDE9BBDF19246CB /* SideBarMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideBarMenuController-dummy.m"; sourceTree = "<group>"; };
+		82A11DAFA508FD264921438FF57DA3FB /* Pods-SideBarMenuController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SideBarMenuController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		91BA102E2524026773D78DAC7D3559B0 /* SideBarMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideBarMenuController.xcconfig; sourceTree = "<group>"; };
+		91E4F8C2721A6D61D7A3B8A5C77EE9EC /* Pods-SideBarMenuController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SideBarMenuController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9447362B0C44200616376FDE9B573E4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68D16235A0B9609A8F5E96E60E4CA66 /* SidebarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0262F71D698F9B58211F2D9F2252C75 /* Pods-SideBarMenuController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SideBarMenuController_Example-umbrella.h"; sourceTree = "<group>"; };
+		D0679B1F19941ADFBC779C8734C0FC5F /* ResourceBundle-SideBarMenuController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SideBarMenuController-Info.plist"; sourceTree = "<group>"; };
+		E40CD95C2CB1F6CB548AD5D824D3A941 /* SideBarMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SideBarMenuController.modulemap; sourceTree = "<group>"; };
+		F5AF26EA8FD4296D0EA04A6407FAFB70 /* Pods-SideBarMenuController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SideBarMenuController_Example-resources.sh"; sourceTree = "<group>"; };
+		F5F5EA51C50E7DE0FAC843DFE5B1A1C6 /* Pods_SideBarMenuController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideBarMenuController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8F8757073B8C176F642DE3929998DB /* Pods-SideBarMenuController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SideBarMenuController_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E715778FB0CE9CE9ADD0B1ED537712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649CFA9EC83F5FB227F7ECC533B426E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA47288F864D28F26E3E43D8205BC8C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D23F2F846A9D87EFE72904AFCD3E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182260DEBE292492E9F9519DC3F1591D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2E32852360452FFB7FA39E2FDB0483B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25280DDCCBACE55934988076E8581FBC /* Info.plist */,
+				D0679B1F19941ADFBC779C8734C0FC5F /* ResourceBundle-SideBarMenuController-Info.plist */,
+				E40CD95C2CB1F6CB548AD5D824D3A941 /* SideBarMenuController.modulemap */,
+				91BA102E2524026773D78DAC7D3559B0 /* SideBarMenuController.xcconfig */,
+				749937B286EF9F97CDDE9BBDF19246CB /* SideBarMenuController-dummy.m */,
+				528566E1F2C6BC7CD632C6E7B9D049E3 /* SideBarMenuController-prefix.pch */,
+				0F3F9092366C31C6F1C67E9A37BF9E27 /* SideBarMenuController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SideBarMenuController";
+			sourceTree = "<group>";
+		};
+		3DF273979C0FAC652ADDF4B1E1761D5C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A0B1EEF74D59734AD8DE9A3A6819ACB4 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		59F10BD2ED1E98FF37A005C82D7F8B60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EADE7089B237B7232E7D6DF91F2AEC02 /* Pods-SideBarMenuController_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				85F80219DE5A03CDF0EFD209EE575FD9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F24D7FD0FA521AD72F41DD408FC0CD93 /* Products */,
+				59F10BD2ED1E98FF37A005C82D7F8B60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85F80219DE5A03CDF0EFD209EE575FD9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F006FF9ACE2352B56F377A88C705E2F0 /* SideBarMenuController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A0B1EEF74D59734AD8DE9A3A6819ACB4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B68D16235A0B9609A8F5E96E60E4CA66 /* SidebarViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EADE7089B237B7232E7D6DF91F2AEC02 /* Pods-SideBarMenuController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9447362B0C44200616376FDE9B573E4E /* Info.plist */,
+				FD8F8757073B8C176F642DE3929998DB /* Pods-SideBarMenuController_Example.modulemap */,
+				691E066FA11D13C024B4B9DF6AB6C32F /* Pods-SideBarMenuController_Example-acknowledgements.markdown */,
+				3896D6B40342D2B2A794CA7932E07ABB /* Pods-SideBarMenuController_Example-acknowledgements.plist */,
+				0848056F744D3BBA4BBDD8E64164CF02 /* Pods-SideBarMenuController_Example-dummy.m */,
+				0ADAF8F69207C0EFF1D5AF86F1A4FD8D /* Pods-SideBarMenuController_Example-frameworks.sh */,
+				F5AF26EA8FD4296D0EA04A6407FAFB70 /* Pods-SideBarMenuController_Example-resources.sh */,
+				D0262F71D698F9B58211F2D9F2252C75 /* Pods-SideBarMenuController_Example-umbrella.h */,
+				82A11DAFA508FD264921438FF57DA3FB /* Pods-SideBarMenuController_Example.debug.xcconfig */,
+				91E4F8C2721A6D61D7A3B8A5C77EE9EC /* Pods-SideBarMenuController_Example.release.xcconfig */,
+			);
+			name = "Pods-SideBarMenuController_Example";
+			path = "Target Support Files/Pods-SideBarMenuController_Example";
+			sourceTree = "<group>";
+		};
+		F006FF9ACE2352B56F377A88C705E2F0 /* SideBarMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				3DF273979C0FAC652ADDF4B1E1761D5C /* Pod */,
+				2E32852360452FFB7FA39E2FDB0483B7 /* Support Files */,
+			);
+			name = SideBarMenuController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F24D7FD0FA521AD72F41DD408FC0CD93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F5EA51C50E7DE0FAC843DFE5B1A1C6 /* Pods_SideBarMenuController_Example.framework */,
+				37CCBF266E6DFBC748731662107ED753 /* SideBarMenuController.bundle */,
+				075BDA59FEDE4DBF8CE1FDE91EBD6ED7 /* SideBarMenuController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D77B5328DB2E63296CFF8B244AAECCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE8D56152999F8FB9BB658C3E6230A3 /* Pods-SideBarMenuController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CDAF306611DCB7EE6385EC2D273E05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712A795263E51F686B44BD570E9C3FDB /* SideBarMenuController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		691D7A417B89BC9B77344D3560DF5BBF /* Pods-SideBarMenuController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467DD0B77048DE3C1C71A85217E2F373 /* Build configuration list for PBXNativeTarget "Pods-SideBarMenuController_Example" */;
+			buildPhases = (
+				E2382A1D1479D2E0D19036752EFD7E8C /* Sources */,
+				649CFA9EC83F5FB227F7ECC533B426E9 /* Frameworks */,
+				6D77B5328DB2E63296CFF8B244AAECCE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114923C98507C116E5083A871A0371FE /* PBXTargetDependency */,
+			);
+			name = "Pods-SideBarMenuController_Example";
+			productName = "Pods-SideBarMenuController_Example";
+			productReference = F5F5EA51C50E7DE0FAC843DFE5B1A1C6 /* Pods_SideBarMenuController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82F8BEE755FDE8533ADD20895FA8282D /* SideBarMenuController-SideBarMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA1B167F59608530DDFC9D014A27D8D /* Build configuration list for PBXNativeTarget "SideBarMenuController-SideBarMenuController" */;
+			buildPhases = (
+				8DA64DB725D06D891111E7B1FD945FBF /* Sources */,
+				55E715778FB0CE9CE9ADD0B1ED537712 /* Frameworks */,
+				0C2418495EA82388C71702E728391567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SideBarMenuController-SideBarMenuController";
+			productName = "SideBarMenuController-SideBarMenuController";
+			productReference = 37CCBF266E6DFBC748731662107ED753 /* SideBarMenuController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F7E8CB6EB441CF2F253316FFCED97F57 /* SideBarMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54069278EC4929FC8B18A83376A26882 /* Build configuration list for PBXNativeTarget "SideBarMenuController" */;
+			buildPhases = (
+				4C81ABFF8084FC4DF963ACF5C9A2F9D3 /* Sources */,
+				96D23F2F846A9D87EFE72904AFCD3E20 /* Frameworks */,
+				7AE4F87ACE43F4C3B25C5B23AF4E22DE /* Resources */,
+				E1CDAF306611DCB7EE6385EC2D273E05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35E4106D144830B18B95B21819B5004 /* PBXTargetDependency */,
+			);
+			name = SideBarMenuController;
+			productName = SideBarMenuController;
+			productReference = 075BDA59FEDE4DBF8CE1FDE91EBD6ED7 /* SideBarMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F24D7FD0FA521AD72F41DD408FC0CD93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				691D7A417B89BC9B77344D3560DF5BBF /* Pods-SideBarMenuController_Example */,
+				F7E8CB6EB441CF2F253316FFCED97F57 /* SideBarMenuController */,
+				82F8BEE755FDE8533ADD20895FA8282D /* SideBarMenuController-SideBarMenuController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C2418495EA82388C71702E728391567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE4F87ACE43F4C3B25C5B23AF4E22DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86162BC8DC1228FEA22E925A19ADBF9D /* SideBarMenuController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C81ABFF8084FC4DF963ACF5C9A2F9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2519FFE771755F105CB5FC0D12B7DEAC /* SideBarMenuController-dummy.m in Sources */,
+				493B6FF1B39CF22CD6375492BA634ECE /* SidebarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA64DB725D06D891111E7B1FD945FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2382A1D1479D2E0D19036752EFD7E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FC62B037DC29E5171EF0E3CB2BB0D5 /* Pods-SideBarMenuController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		114923C98507C116E5083A871A0371FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideBarMenuController;
+			target = F7E8CB6EB441CF2F253316FFCED97F57 /* SideBarMenuController */;
+			targetProxy = 142370E1A8E5F14744ABEB7D0AF56291 /* PBXContainerItemProxy */;
+		};
+		A35E4106D144830B18B95B21819B5004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SideBarMenuController-SideBarMenuController";
+			target = 82F8BEE755FDE8533ADD20895FA8282D /* SideBarMenuController-SideBarMenuController */;
+			targetProxy = CED9E54CC4E563C666FCEF8A49795BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F271A936B864B91EEEB517DF1EF88E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BA102E2524026773D78DAC7D3559B0 /* SideBarMenuController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SideBarMenuController/ResourceBundle-SideBarMenuController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SideBarMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5FBEA08B575B84E08D450EEF567944D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BA102E2524026773D78DAC7D3559B0 /* SideBarMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideBarMenuController/SideBarMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideBarMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideBarMenuController/SideBarMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SideBarMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		691E6B6CB18276AA6D412973CB86E82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BA102E2524026773D78DAC7D3559B0 /* SideBarMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideBarMenuController/SideBarMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideBarMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideBarMenuController/SideBarMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SideBarMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EB0A5D921AFCCFF3E283185071CC79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A11DAFA508FD264921438FF57DA3FB /* Pods-SideBarMenuController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SideBarMenuController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SideBarMenuController_Example/Pods-SideBarMenuController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SideBarMenuController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3C1DCF17CDF66624A01545FF52A3F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BA102E2524026773D78DAC7D3559B0 /* SideBarMenuController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SideBarMenuController/ResourceBundle-SideBarMenuController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SideBarMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D118CB9AD6F40CA0F2748469CA8750C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E4F8C2721A6D61D7A3B8A5C77EE9EC /* Pods-SideBarMenuController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SideBarMenuController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SideBarMenuController_Example/Pods-SideBarMenuController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SideBarMenuController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467DD0B77048DE3C1C71A85217E2F373 /* Build configuration list for PBXNativeTarget "Pods-SideBarMenuController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB0A5D921AFCCFF3E283185071CC79D /* Debug */,
+				D118CB9AD6F40CA0F2748469CA8750C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54069278EC4929FC8B18A83376A26882 /* Build configuration list for PBXNativeTarget "SideBarMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691E6B6CB18276AA6D412973CB86E82A /* Debug */,
+				5FBEA08B575B84E08D450EEF567944D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA1B167F59608530DDFC9D014A27D8D /* Build configuration list for PBXNativeTarget "SideBarMenuController-SideBarMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F271A936B864B91EEEB517DF1EF88E7 /* Debug */,
+				A3C1DCF17CDF66624A01545FF52A3F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
