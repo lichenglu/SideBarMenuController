@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SideBarMenuController_Example', :exclusive => true do
+  pod 'SideBarMenuController', :path => '../'
+end
+
+target 'SideBarMenuController_Tests', :exclusive => true do
+  pod 'SideBarMenuController', :path => '../'
+
+  
+end
